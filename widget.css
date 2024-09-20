@@ -1,0 +1,14 @@
+#widget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imageUpload {
+  margin-bottom: 10px;
+}
+
+#imageCanvas {
+  border: 1px solid #ccc;
+  cursor: crosshair;
+}
