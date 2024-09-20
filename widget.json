@@ -1,0 +1,27 @@
+{
+  "name": "ImageHotspotWidget",
+  "icon": "https://yourdomain.com/icon.png",
+  "description": "A widget that allows users to upload an image, create interactive hotspots, and customize their appearance.",
+  "platform": "all",
+  "tags": ["image", "hotspot", "upload", "interactive", "selection"],
+  "sandbox": true,
+  "files": {
+    "js": "widget.js",
+    "css": "widget.css",
+    "html": "widget.html"
+  },
+  "parameters": [
+    {
+      "name": "Selection Type",
+      "type": "dropdown",
+      "options": ["Single Selection", "Multiple Selections"],
+      "default": "Single Selection"
+    },
+    {
+      "name": "Selection Appearance",
+      "type": "dropdown",
+      "options": ["Color Overlay", "Checkbox"],
+      "default": "Color Overlay"
+    }
+  ]
+}
